@@ -4,7 +4,7 @@
   "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 06: TCP Chat Server ======",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,10 @@
     "jest": "^22.4.3"
   },
   "dependencies": {
-    "dotenv": "^5.0.1"
+    "dotenv": "^5.0.1",
+    "run": "^1.4.0",
+    "test": "^0.6.0",
+    "uuid": "^3.2.1",
+    "winston": "^3.0.0-rc5"
   }
 }
